@@ -1,0 +1,126 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("background.jpg");
+    background-size: 100% 150%;
+    background-repeat: no-repeat;
+    
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    margin-top: 30px;
+    margin-left: 150px;
+
+}
+
+.globe{
+   width: 120px;
+   height: 40px;
+   border: 2px solid rgb(255, 255, 255);
+   text-align: center;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding:0px 10px 0px 10px ;
+   margin-top: 30px;
+   margin-right: 20px;
+   border-radius: 5px;
+   background-color: rgba(00, 00, 00, 0.9);
+   font-size: 18px;
+} 
+.drop{
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+
+.signin{
+    background-color: #ff0000;
+    color: white;
+    width: 80px;
+    height: 35px;
+    margin-top: 32.5px;
+   margin-right: 150px;
+   border-radius: 5px;
+   border: none;
+   font-size: 14px;
+
+}
+
+.lan_si{
+    display: flex;
+}
+
+/* main part  */
+
+.headline{
+    margin-top: 230px;
+    color: white;
+    text-align: center;
+}
+
+.high{
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.med{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.last{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.in{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email{
+    width: 375px;
+    height: 60px;
+    padding: 24px 14px;
+    background:transparent;
+    background-color: rgba(00, 00, 00, 0.8);
+    border-radius: 5px;
+    font-size: 17px;
+    border: 1px solid #edf2f4;
+    color: rgb(255, 255, 255);
+}
+
+.start{
+    width: 200px;
+    height: 60px;
+    margin-left: 10px;
+    background:transparent;
+    background-color: rgb(255, 00, 00);
+    border-radius: 5px;
+    font-size: 24px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+
