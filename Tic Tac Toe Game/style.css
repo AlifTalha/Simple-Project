@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #7B68EE; 
+}
+.name {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #eadfe2;
+}
+
+
+.countainer{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5vmin;
+    margin-top: 10vmin;
+}
+
+.buttons{
+    height: 40vmin;
+    width:40vmin ;
+    margin: 5vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn{
+    height: 10vmin;
+    width: 10vmin;
+    margin: 1vmin;
+    font-size: 2vw;
+    border: 2px solid black; 
+    background-color: #ffffff;
+    font-weight: 800;
+}
+
+.winner{
+    font-size: 2vw;
+    font-weight: 800;
+}
+
+.btns{
+    margin-top: 5vmin;
+}
+
+.newbtn{
+    width: 18vmin;
+    height: 5vmin;
+    border-radius: 2vmin;
+    font-size: 1.3vw;
+    border: none;
+    background-color: #FFD700; 
+    font-weight: bold; 
+    margin-right: 1vmin;
+}
+
+.reset{
+    width: 18vmin;
+    height: 5vmin;
+    border-radius: 2vmin;
+    font-size: 1.3vw;
+    border: none;
+    background-color: #FF6347; 
+    font-weight: bold; 
+}
+
+@media screen and (max-width:600px) {
+    
+    h1{
+        font-size: 10vmin;
+    }
+    
+    .newbtn{
+        width: 30vmin;
+        height: 10vmin;
+        font-size:5vw;
+    }
+    .reset{
+        width: 30vmin;
+        height: 10vmin;
+        font-size:5vw;
+    }
+    .buttons{
+        height: 40vmin;
+        width:60vmin ;
+    }
+    .btn{
+        height: 18vmin;
+        width: 18vmin;
+        font-size: 8vw;
+        font-weight: 900;
+        border: 2px solid black; 
+    }
+   
+    .winner{
+        margin-top: 20vmin;
+        font-size: 6vw;
+    }
+}
