@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: DarkSlateGrey;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.name {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-size: 3vmin;
+    color: #FFFFFF;
+}
+
+.countainer {
+    height: 85vmin;
+    width: 85vmin;
+    padding: 5vmin;
+    border-radius: 50%;
+    border: 0.5vmin solid black;
+    background-color: LightGrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.gamename {
+    font-size: 7vmin;
+    margin-bottom: 3vmin;
+}
+
+.watch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vmin 0;
+}
+
+.time {
+    font-size: 15vmin;
+}
+
+.unit {
+    display: flex;
+    align-items: flex-end;
+    font-size: 3vmin;
+    font-weight: 600;
+}
+
+.btns {
+    margin-top: 2vmin;
+    display: flex;
+    gap: 1vmin;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn {
+    text-align: center;
+    font-size: 2.5vmin;
+    border-radius: 3vmin;
+    padding: 1vmin;
+    width: 13vmin;
+    border: none;
+    background-color: #4a1d1d;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.mili {
+    font-size: 6vmin;
+    display: flex;
+    align-items: flex-end;
+    margin: 0px 0px 4vmin 2vmin;
+}
+
+.records {
+    position: absolute;
+    bottom: 5vmin;
+    text-align: middle;
+    width: 90%;
+}
+
+.records h3 {
+    font-size: 2vmin;
+    margin-bottom: 1vmin;
+}
+
+.record-list {
+    list-style-type: none;
+    font-size: 3.5vmin;
+    max-height: 15vmin;  /* Set a maximum height for the records list */
+    overflow-y: auto;  /* Allow scrolling if the list overflows */
+}
+
+@media screen and (max-width:600px) {
+    .countainer {
+        height: 90vmin;
+        width: 90vmin;
+        padding: 5vmin;
+        border-radius: 45vmin;
+    }
+
+    .gamename {
+        font-size: 9vmin;
+    }
+    
+    .unit {
+        font-weight: 700;
+    }
+    
+    .btn {
+        width: 20vmin;
+        height: 9vmin;
+        font-size: 4vw;
+    }
+
+    .btns {
+        margin-top: 5vmin;
+        display: flex;
+        gap: 10px;
+    }
+
+    .records h3 {
+        font-size: 6vmin;
+    }
+
+    .record-list {
+        font-size: 5vmin;
+    }
+
+    .name {
+        font-size: 5vmin;
+    }
+}
