@@ -1,0 +1,99 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e8bcbc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333333;
+}
+
+.input {
+    margin-bottom: 20px;
+}
+
+.input p {
+    margin: 10px 0;
+}
+
+label {
+    font-size: 16px;
+    color: #555555;
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    width: calc(100% - 20px);
+}
+
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333333;
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+}
+
+.result span {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.guide {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.guide h2 {
+    font-size: 18px;
+    color: #333333;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.guide p {
+    font-size: 16px;
+    color: #555555;
+    margin: 5px 0;
+}
